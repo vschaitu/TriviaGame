@@ -1,0 +1,54 @@
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 1.4rem;
+background-image: url("../images/bg2.jpg");
+}
+
+.container {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: rgba(245, 245, 245, 0.849);
+	margin-bottom: 18px;
+	border-style: ridge;
+    border-width: 6px;
+	border-color: #FDBA01;
+	border-radius: 25px;
+}
+
+
+.option {
+    cursor: pointer;
+	font-size :88%;
+}
+
+.option:hover {
+	background-color: #eadedb; 
+	font-style: italic;
+	font-size :140%;
+	font-weight: bold;
+}
+
+.imgbox {
+	max-height: 300px;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.countdownContainer {
+	display: none;
+}
+
+#timer {
+	font-style: italic;
+	font-size :140%;
+	font-weight: bold;
+	color: tomato;
+}
+
+#green {
+	font-style: italic;
+	font-size :140%;
+	font-weight: bold;
+	color: green;
+}
